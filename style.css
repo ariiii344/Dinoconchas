@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #f4a261;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#inicio {
+    background-color: #ffe8d6;
+    padding: 40px 20px;
+}
+
+#sobre-nosotros {
+    background-color: #fefae0;
+}
+
+#galeria {
+    background-color: #e9c46a;
+}
+
+#productos {
+    background-color: #f4a261;
+    color: white;
+}
+
+#contacto {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
